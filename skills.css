@@ -1,0 +1,131 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: #333;
+    html {
+        scroll-behavior: smooth;
+    }
+}
+
+/*header {
+    background-color: #333;
+    padding: 20px;
+}
+
+header nav .nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header nav .links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+header nav .links a.active {
+    border-bottom: 2px solid #fff;
+}*/
+
+.skills-section, .soft-skills-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.skills-section h2, .soft-skills-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.skills-container, .soft-skills-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.skill-item {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.skill-item h3 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.skill-bar {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    background-color: #077b32;
+    height: 25px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+/* Soft Skills Section */
+.soft-skills-section ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.soft-skills-section ul li {
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.soft-skills-section ul li i {
+    color: white;
+    margin-right: 10px;
+}
+
+/* Footer 
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header nav .links a {
+        margin: 0 10px;
+    }
+
+    .skills-section h2, .soft-skills-section h2 {
+        font-size: 28px;
+    }
+
+    .skill-item h3 {
+        font-size: 20px;
+    }
+
+    .soft-skills-section ul {
+        gap: 20px;
+    }
+}
